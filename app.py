@@ -6,7 +6,7 @@ import numpy as np
 lin_reg_loaded = joblib.load('lin_reg_model.joblib')
 
 #judul aplikasi 
-st.tittle("Prediksi Gaji Berasrkan Lama Bekerja")
+st.title("Prediksi Gaji Berasrkan Lama Bekerja")
 
 #Input tahun pengalaman kerja
 years_experience = st.number_input("Masukkan jumlah tahun bekerja:", min_value=0.0, step=0.1)
