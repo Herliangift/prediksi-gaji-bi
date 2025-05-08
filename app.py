@@ -1,6 +1,6 @@
 import streamlit as st
 import joblib
-import nump as np
+import numpy as np
 
 #memuat model regresi linear yang sudah disimpan
 lin_reg_loaded = joblib.load('lin_reg_model.joblib')
